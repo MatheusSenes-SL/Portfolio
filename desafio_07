@@ -1,0 +1,6 @@
+# Tire a média do aluno.
+Nt1 = float(input("Nota 1: "))
+Nt2 = float(input("Nota 2: "))
+QtP = float(input("Quantidade de Provas: "))
+Result = ((Nt1 + Nt2) / QtP)
+print(Result)

@@ -1,0 +1,5 @@
+height = float(input("What's the wall's height in meters? "))
+width = float(input("What's the wall's width in meters? "))
+area = (height * width)
+painted = (area / 2)
+print("The wall has an area of {:.2f}m², which can be filled with {:.2f} liters of paint".format(area, painted))
